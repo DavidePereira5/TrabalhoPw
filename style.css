@@ -1,0 +1,42 @@
+.iframe{
+    text-align: center;
+    width:100% !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+.row::after {
+  display: table;
+}
+
+.images {
+    float: left;
+    width:  300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.title-index{
+  
+}
+
+.logo{
+  float: right;
+  width:  60px;
+  height: 70px;
+  margin: 10px;
+  object-fit:cover;
+}
+
+.w3-container{
+    width:100% !important;
+}
