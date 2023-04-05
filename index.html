@@ -5,36 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="images/PTL.png" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main>
+      <!-- nav header -->
       <div class="header">
         <h3 style="margin-left: 10px">
-          <a style="text-decoration: none" href="">Ponte de Lima</a>
+          <a
+            style="text-decoration: none; color: white; font-size: 1.5em"
+            href=""
+            >Ponte de Lima</a
+          >
         </h3>
         <img class="logo" src="images/PTL.png" alt="" />
       </div>
 
+      <!-- side menu -->
       <div id="content" class="row">
         <div class="col-3 col-s-3 menu">
           <ul>
-            <li>Localização</li>
-            <li>Rotas de turismo</li>
+            <a style="text-decoration: none; color: white" href="#loc"
+              ><li>Localização</li></a
+            >
+            <a style="text-decoration: none; color: white" href="#rotas" ><li>Rotas de turismo</li></a>
             <li>Noticias</li>
             <li>Eventos</li>
             <li>Pontos de interesse</li>
             <li>INE</li>
           </ul>
+          <iframe
+            id="loc"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11903.696713716603!2d-8.596412713362065!3d41.76529252095538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd25a5f1030f0711%3A0x34b7b0b5fe7c66ce!2sPte.%20de%20Lima!5e0!3m2!1spt-PT!2spt!4v1680651066974!5m2!1spt-PT!2spt"
+            width="100%"
+            height="400px"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
 
+        <!-- conteudo -->
         <div class="col-6 col-s-9">
-          <h2>Vila de Ponte de Lima</h2>
+          <span
+            style="
+              text-transform: uppercase;
+              font-weight: 900;
+              font-size: xxx-large;
+            "
+            >Vila de Ponte de Lima</span
+          >
 
-          <h3>História da Vila</h3>
+          <h3 style="margin-bottom: 1em">História da Vila</h3>
           <div>
-            <b>
+            <div style="font-size: 1.2em; margin-bottom: 1em">
               Em pleno coração do Vale do Lima, a beleza castiça e peculiar da
               vila mais antiga de Portugal esconde raízes profundas e lendas
               ancestrais. Foi a Rainha D. Teresa quem, na longínqua data de 4 de
@@ -46,10 +71,25 @@
               duas, vários vestígios das restantes e de toda a estrutura
               defensiva de então, fazendo-se o acesso à vila através de seis
               portas.
-            </b>
+            </div>
+
+            <div style="opacity: 0.7">
+              A ponte, que deu nome a esta nobre terra, adquiriu sempre uma
+              importância de grande significado em todo o Alto Minho, atendendo
+              a ser a única passagem segura do Rio Lima, em toda a sua extensão,
+              até aos finais da Idade Média.
+            </div>
           </div>
+
+          <h3 style="margin-top: 1em;margin-bottom: 1em">Rotas Turisticas</h3>
+
+          
+
+
+
         </div>
 
+        <!-- imagens -->
         <div class="col-3 col-s-12">
           <div class="aside">
             <img src="images/ptl1.jpg" alt="" />
@@ -59,11 +99,9 @@
         </div>
       </div>
 
+      <!-- foot -->
       <div class="footer">
-        <p>
-          Resize the browser window to see how the content respond to the
-          resizing.
-        </p>
+        <p>pppppppp</p>
       </div>
     </main>
   </body>

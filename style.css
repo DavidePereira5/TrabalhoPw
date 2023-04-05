@@ -1,7 +1,12 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
+a{
+  scroll-behavior: smooth;
+}
 #content{
   padding-bottom: 40px;
 }
@@ -23,8 +28,11 @@ main{
 }
 
 html {
-  font-family: "Lucida Sans", sans-serif;
+  font-family: "Roboto" !important;
+  scroll-behavior: smooth;
 }
+
+
 
 .header {
   display: flex;
@@ -35,6 +43,10 @@ html {
 }
 .header img{
   margin-left: auto;
+}
+
+.header h3{
+  align-self: center;
 }
 
 .logo {
